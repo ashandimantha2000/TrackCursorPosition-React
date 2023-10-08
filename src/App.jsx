@@ -28,7 +28,7 @@ function App() {
   const {x,y} = useMouse();
   return (
     <div>
-      App
+      <h2>Mouse Position Tracking</h2>
       <p>Mouse X is {x}</p>
       <p>Mouse Y is {y}</p>
     </div>
